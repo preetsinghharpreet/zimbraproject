@@ -1,0 +1,6 @@
+---
+- src: https://github.com/preetsinghharpreet/harpreet.zimbra.git
+  name: harpreet.zimbra
+  scm: git
+  version: master
+

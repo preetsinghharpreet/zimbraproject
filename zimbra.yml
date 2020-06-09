@@ -1,0 +1,10 @@
+---
+- name: play for zimbra installation
+  hosts: all
+  roles:
+    - role: harpreet.zimbra
+      hostname: "zimbra"
+      domain: "example.com"
+      zmpasswd: "redhat@123"
+      zmnetwork: "192.168.0.0/16"
+      zmhostip: "192.168.22.17"
